@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.citizenact.backend.config.JwtConfig",
+      "description": "Configuration properties for JWT authentication."
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "group": "jwt",
+      "description": "Secret key for signing JWT tokens (Base64-encoded, minimum 256 bits).",
+      "defaultValue": null
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Long",
+      "group": "jwt",
+      "description": "Expiration time for JWT tokens in seconds.",
+      "defaultValue": 86400
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+id,image_path,title,description
+1,assets/images/image1.svg,Image 1,Description de l'image 1
+2,assets/images/image2.svg,Image 2,Description de l'image 2
+3,assets/images/image3.svg,Image 3,Description de l'image 3
